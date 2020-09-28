@@ -27,7 +27,6 @@
 				"typeProperties": {
 					"source": {
 						"type": "SqlServerSource",
-						"sqlReaderQuery": "SELECT    [Name]     ,[ShortName]      ,[Active]      ,[IntlDialCode]\n  FROM [ASKMEF].[ES].[Country]",
 						"partitionOption": "None"
 					},
 					"sink": {
@@ -104,7 +103,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_sjv",
+						"referenceName": "SqlServerTableSalesData",
 						"type": "DatasetReference"
 					}
 				],
