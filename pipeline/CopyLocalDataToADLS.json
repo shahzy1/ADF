@@ -47,50 +47,45 @@
 						"mappings": [
 							{
 								"source": {
-									"name": "Name",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"name": "SalesID",
+									"precision": 10
 								},
 								"sink": {
-									"name": "Name",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"name": "ID"
 								}
 							},
 							{
 								"source": {
-									"name": "ShortName",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"name": "CustomerID"
 								},
 								"sink": {
-									"name": "ShortName",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"name": "CustomerID"
 								}
 							},
 							{
 								"source": {
-									"name": "Active",
-									"type": "Boolean",
-									"physicalType": "bit"
+									"name": "DateOfSale"
 								},
 								"sink": {
-									"name": "Active",
-									"type": "Boolean",
-									"physicalType": "bit"
+									"name": "DateOfSale"
 								}
 							},
 							{
 								"source": {
-									"name": "IntlDialCode",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"name": "AmountOfSale",
+									"scale": 4,
+									"precision": 19
 								},
 								"sink": {
-									"name": "IntlDialCode",
-									"type": "String",
-									"physicalType": "nvarchar"
+									"name": "AmountOfSale"
+								}
+							},
+							{
+								"source": {
+									"name": "ItemPurchased"
+								},
+								"sink": {
+									"name": "ItemPurchased"
 								}
 							}
 						],
