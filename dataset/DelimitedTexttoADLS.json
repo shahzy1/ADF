@@ -1,0 +1,44 @@
+{
+	"name": "DelimitedTexttoADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStoreMain",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "export.txt",
+				"folderPath": "GLData"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ID",
+				"type": "String"
+			},
+			{
+				"name": "CustomerID",
+				"type": "String"
+			},
+			{
+				"name": "DateOfSale",
+				"type": "String"
+			},
+			{
+				"name": "AmountOfSale",
+				"type": "String"
+			},
+			{
+				"name": "ItemPurchased",
+				"type": "String"
+			}
+		]
+	}
+}

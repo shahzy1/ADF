@@ -53,9 +53,9 @@
 									"physicalType": "nvarchar"
 								},
 								"sink": {
+									"name": "Name",
 									"type": "String",
-									"physicalType": "nvarchar",
-									"ordinal": 1
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -65,9 +65,9 @@
 									"physicalType": "nvarchar"
 								},
 								"sink": {
+									"name": "ShortName",
 									"type": "String",
-									"physicalType": "nvarchar",
-									"ordinal": 2
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -77,9 +77,9 @@
 									"physicalType": "bit"
 								},
 								"sink": {
+									"name": "Active",
 									"type": "Boolean",
-									"physicalType": "bit",
-									"ordinal": 3
+									"physicalType": "bit"
 								}
 							},
 							{
@@ -89,9 +89,9 @@
 									"physicalType": "nvarchar"
 								},
 								"sink": {
+									"name": "IntlDialCode",
 									"type": "String",
-									"physicalType": "nvarchar",
-									"ordinal": 4
+									"physicalType": "nvarchar"
 								}
 							}
 						],
@@ -110,7 +110,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "DelimitedTexttoADLS",
 						"type": "DatasetReference"
 					}
 				]
