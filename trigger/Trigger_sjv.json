@@ -17,7 +17,8 @@
 		"typeProperties": {
 			"frequency": "Hour",
 			"interval": 1,
-			"startTime": "2020-09-28T13:57:00Z",
+			"startTime": "2020-09-28T13:57:00.000Z",
+			"endTime": "2020-09-29T01:07:26.898Z",
 			"delay": "00:00:00",
 			"maxConcurrency": 50,
 			"retryPolicy": {
