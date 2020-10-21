@@ -100,7 +100,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_o7k",
+						"referenceName": "LocalSQLToAzureSQL",
 						"type": "DatasetReference"
 					}
 				]
