@@ -40,7 +40,62 @@
 						}
 					},
 					"enableStaging": false,
-					"validateDataConsistency": false
+					"validateDataConsistency": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "ID",
+									"type": "Int32"
+								},
+								"sink": {
+									"name": "ID",
+									"type": "Int32"
+								}
+							},
+							{
+								"source": {
+									"name": "CustomerID",
+									"type": "String"
+								},
+								"sink": {
+									"name": "CustomerID",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "DateOfSale",
+									"type": "DateTime"
+								},
+								"sink": {
+									"name": "DateOfSale",
+									"type": "DateTime"
+								}
+							},
+							{
+								"source": {
+									"name": "AmountOfSale",
+									"type": "Decimal"
+								},
+								"sink": {
+									"name": "AmountOfSale",
+									"type": "Decimal"
+								}
+							},
+							{
+								"source": {
+									"name": "ItemPurchased",
+									"type": "String"
+								},
+								"sink": {
+									"name": "ItemPurchased",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
