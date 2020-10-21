@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_etj",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore1Demo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"folderPath": "SalesData"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
