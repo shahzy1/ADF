@@ -1,0 +1,13 @@
+{
+	"name": "AzureDataLakeStore1Demo",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://tanolisdemodatalake.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "2d6088a2-2723-415d-a75c-d3e18087d2f2",
+			"subscriptionId": "fe71a45b-7d84-425d-8e9c-f8f45345a428",
+			"resourceGroupName": "databases-rg"
+		}
+	}
+}
