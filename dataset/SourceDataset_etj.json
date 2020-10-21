@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_etj",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LocalMachineLinkedDataService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Customers"
+		}
+	}
+}
