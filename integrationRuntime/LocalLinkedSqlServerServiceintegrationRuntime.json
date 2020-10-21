@@ -1,0 +1,6 @@
+{
+	"name": "LocalLinkedSqlServerServiceintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

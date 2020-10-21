@@ -1,0 +1,16 @@
+{
+	"name": "LocalMachineLinkedDataService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=WORKBENCH;initial catalog=TODO;user id=AzureUser",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2NjNhNzA1OS05MGU2LTRlYjUtYjdlMy00ZDNjMGIwOGMzY2EiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "LocalLinkedSqlServerServiceintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
